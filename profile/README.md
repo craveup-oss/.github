@@ -16,7 +16,6 @@ an open protocol.
 | --- | --- |
 | Build a web storefront | [Crave.js Web Template](https://github.com/craveup-oss/cravejs-web-template) — a fixture-backed Next.js restaurant storefront with six visual directions |
 | Build for iOS and Android | [Crave.js Expo Template](https://github.com/craveup-oss/cravejs-expo-template) — a React Native storefront foundation with generated brand configuration |
-| Run restaurant order operations | [Crave Orders Manager](https://github.com/craveup-oss/crave-orders-manager) — a tablet-first fulfillment console with a credential-free offline demo |
 | Add or integrate loyalty | [Loyalty Interchange Protocol](https://github.com/craveup-oss/opensource-loyalty) — an Apache-2.0 protocol, reference runtime, SDK, Admin, and conformance suite |
 | Build a Flutter storefront | [Crave Storefront SDK for Dart](https://github.com/craveup-oss/crave-storefront-sdk-dart) — a typed preview client for the Storefront API |
 | Work through an AI agent | [Crave MCP Server](https://github.com/craveup-oss/craveup-mcp) — local tooling for onboarding, menus, locations, readiness, and guarded releases |
@@ -25,14 +24,26 @@ an open protocol.
 
 Run checkout through refund in the
 [LIP browser walkthrough](https://opensource-loyalty.vercel.app/#walkthrough),
-or launch the Orders Manager offline demo:
+or run the web storefront locally with fixtures and no Crave credentials:
 
 ```bash
-git clone https://github.com/craveup-oss/crave-orders-manager.git
-cd crave-orders-manager
-npm ci
-npm run demo
+git clone https://github.com/craveup-oss/cravejs-web-template.git
+cd cravejs-web-template
+corepack enable
+pnpm install --frozen-lockfile
+pnpm dev:fixtures --profile standalone-cli --tenant fixture-base
 ```
+
+## Legacy storefront references
+
+These MIT-licensed repositories preserve visual and interaction ideas from the
+retired Storefront SDK 1.x. They are useful as design references, but they are
+not production starters. Start new storefronts with the
+[Crave.js Web Template](https://github.com/craveup-oss/cravejs-web-template).
+
+- [Bakery storefront](https://github.com/craveup-oss/restaurant-storefront-starter)
+- [Noodle-house storefront](https://github.com/craveup-oss/chinese-restaurant-storefront)
+- [Sushi storefront](https://github.com/craveup-oss/sushi-restaurant-storefront)
 
 ## How we build
 
