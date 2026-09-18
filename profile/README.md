@@ -19,8 +19,8 @@ protocol.
 
 | I want to… | Start here |
 | --- | --- |
-| Build a web storefront | [Crave.js Web Template](https://github.com/craveup-oss/cravejs-web-template) — a fixture-backed Next.js restaurant storefront with six visual directions |
-| Build for iOS and Android | [Crave.js Expo Template](https://github.com/craveup-oss/cravejs-expo-template) — a React Native storefront foundation with generated brand configuration |
+| Build a web storefront | [CraveJS Web Template](https://github.com/craveup-oss/cravejs-web-template) — a fixture-backed Next.js restaurant storefront with six visual directions |
+| Build for iOS and Android | [CraveJS Expo Template](https://github.com/craveup-oss/cravejs-expo-template) — a React Native storefront foundation with generated brand configuration |
 | Add or integrate loyalty | [Loyalty Interchange Protocol](https://github.com/craveup-oss/loyalty-interchange-protocol) — an Apache-2.0 protocol, reference runtime, SDK, Admin, and conformance suite |
 | Build a Flutter storefront | [CraveJS Storefront SDK for Dart](https://github.com/craveup-oss/cravejs-storefront-sdk-dart) — a typed preview client for the Storefront API |
 | Connect an AI agent to Crave | [Crave Up MCP Server](https://github.com/craveup-oss/craveup-mcp) — local tooling for onboarding, menus, locations, readiness, and guarded releases |
@@ -44,7 +44,7 @@ pnpm dev:fixtures --profile standalone-cli --tenant fixture-base
 These MIT-licensed repositories preserve visual and interaction ideas from the
 retired Storefront SDK 1.x. They are useful as design references, but they are
 not production starters. Start new storefronts with the
-[Crave.js Web Template](https://github.com/craveup-oss/cravejs-web-template).
+[CraveJS Web Template](https://github.com/craveup-oss/cravejs-web-template).
 
 - [Bakery storefront](https://github.com/craveup-oss/restaurant-storefront-starter)
 - [Noodle-house storefront](https://github.com/craveup-oss/chinese-restaurant-storefront)
