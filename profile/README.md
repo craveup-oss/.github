@@ -1,10 +1,15 @@
 # Crave Open Source
 
-Open-source tools for building and operating restaurant commerce.
+Open-source tools, frameworks, and protocols for building better digital
+hospitality.
 
-Explore storefronts, loyalty infrastructure, order fulfillment, SDKs, and agent
-tooling. Start with a credential-free demo, adapt a template, or contribute to
-an open protocol.
+CraveJS is our contribution to the community: reusable storefront foundations,
+SDKs, order-management building blocks, and developer tooling for restaurant and
+hospitality teams. We also maintain independent open protocols where a
+vendor-neutral contract serves the ecosystem better.
+
+Start with a credential-free demo, adapt a template, or contribute to an open
+protocol.
 
 [Run a loyalty walkthrough](https://opensource-loyalty.vercel.app/#walkthrough)
 · [Explore the projects](https://github.com/orgs/craveup-oss/repositories)
@@ -16,9 +21,9 @@ an open protocol.
 | --- | --- |
 | Build a web storefront | [Crave.js Web Template](https://github.com/craveup-oss/cravejs-web-template) — a fixture-backed Next.js restaurant storefront with six visual directions |
 | Build for iOS and Android | [Crave.js Expo Template](https://github.com/craveup-oss/cravejs-expo-template) — a React Native storefront foundation with generated brand configuration |
-| Add or integrate loyalty | [Loyalty Interchange Protocol](https://github.com/craveup-oss/opensource-loyalty) — an Apache-2.0 protocol, reference runtime, SDK, Admin, and conformance suite |
-| Build a Flutter storefront | [Crave Storefront SDK for Dart](https://github.com/craveup-oss/crave-storefront-sdk-dart) — a typed preview client for the Storefront API |
-| Work through an AI agent | [Crave MCP Server](https://github.com/craveup-oss/craveup-mcp) — local tooling for onboarding, menus, locations, readiness, and guarded releases |
+| Add or integrate loyalty | [Loyalty Interchange Protocol](https://github.com/craveup-oss/loyalty-interchange-protocol) — an Apache-2.0 protocol, reference runtime, SDK, Admin, and conformance suite |
+| Build a Flutter storefront | [CraveJS Storefront SDK for Dart](https://github.com/craveup-oss/cravejs-storefront-sdk-dart) — a typed preview client for the Storefront API |
+| Connect an AI agent to Crave | [Crave Up MCP Server](https://github.com/craveup-oss/craveup-mcp) — local tooling for onboarding, menus, locations, readiness, and guarded releases |
 
 ## Try something without an account
 
